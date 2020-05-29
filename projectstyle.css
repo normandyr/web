@@ -1,0 +1,37 @@
+html, body {padding:0; margin:0; height:100%;}
+
+body{
+    margin:0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+li{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.indent{
+    margin-left: 40px;
+}
+
+.head{
+    float: left;
+    text-align: left;
+}
+
+.move-top{
+    float: left;
+}
+
+.bottom{
+    position: absolute;
+    bottom:0;
+    left:43%
+}

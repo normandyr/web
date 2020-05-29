@@ -1,0 +1,218 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-color: #00012D; 
+}
+
+
+h1{
+
+    
+   display: inline;
+
+    
+    
+    background-color: #00012D; 
+   
+}
+
+.wrap{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    background-color: #00012D; 
+    
+   
+}
+
+.text{
+    font-family: 'Economica';font-size: 22px;
+    position: absolute;
+    top: 3%;
+    text-decoration: underline;
+    color: whitesmoke;   
+    right: 41.125%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.code{
+    font-family: 'Economica';font-size: 18px;
+    position: absolute;
+    top: 41.5%;    
+    color: whitesmoke;   
+    right: 48.9%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.design{
+    font-family: 'Economica';font-size: 18px;
+    position: absolute;
+    top: 11%;    
+    color: whitesmoke;   
+    right: 58%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.research{
+    font-family: 'Economica';font-size: 18px;
+    position: absolute;
+    top: 11%;    
+    color: whitesmoke;   
+    right: 38%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.paint{
+    background-color: #00012D;
+    margin-bottom: 400px;
+    
+}
+
+
+.yolo{
+   
+    color: black;
+    background-color: white;
+}
+
+.yoloo{
+    
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+.bottom{
+    position: absolute;
+    bottom:0;
+    left:43%
+}
+
+
+
+
+
+
+
+
+a {
+    
+    text-decoration: none;
+   
+}
+
+.li{
+    padding: 2px;
+    
+}
+
+.wtf{
+    color: white;
+    text-align: center;
+}
+
+
+
+.hide{
+    display: inline;
+    visibility: hidden;
+}
+
+.word{
+    display: inline-block;
+    
+   
+}
+
+
+.texts{
+    display: inline-block;
+    font-family: 'Economica';font-size: 22px;   
+    text-decoration: none;
+    color: whitesmoke;  
+    line-height: 66px; 
+    
+    
+    
+    
+}
+.fa-github{
+    text-decoration: none;
+    color: #282a38;
+}
+
+.fa-linkedin {
+    background: #E48AAE;
+    color: white;
+    text-decoration: none;
+  }
+
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+  }
+  
+  .child {
+    display: inline-block;
+    margin-bottom:  30px;
+  }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .research{visibility: hidden;}
+    .design{visibility: hidden;}
+    .code{visibility: hidden;}
+    .text{visibility: hidden;}
+    .word{
+        display: block;
+    }
+
+    .texts{
+        display: inline-block;
+        font-family: 'Economica';font-size: 16px;   
+        text-decoration: none;
+        color: whitesmoke;  
+        line-height: 66px; 
+        
+        
+        
+        
+    }
+  }
+@media only screen and (max-width: 1279px) {
+    .research{visibility: hidden;}
+    .design{visibility: hidden;}
+    .code{visibility: hidden;}
+    .text{visibility: hidden;}
+    .word{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+    .research{visibility: hidden;}
+    .design{visibility: hidden;}
+    .code{visibility: hidden;}
+    .text{visibility: hidden;}
+    
+
+    
+}
